@@ -1,0 +1,756 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+   
+ 
+    align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
+
+
+
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+  font-size: 25px;
+  
+  
+
+}
+.two{
+    background-color: inherit;
+    width: 159px;
+height: 60px;
+border-radius: 33px;
+border: 1px solid black;
+display: flex;
+padding: 0 5px;
+
+
+}
+nav ul li a:hover{
+color: #7EB693;
+transition: 0.5s;
+}
+.two p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.menu-btn{
+    display: none;
+    color: black;
+    font-size: 25px;
+    background-color: inherit;
+    border: none;
+}
+.bcimg{
+    background-image: url("./IMAGE\ \(17\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+ width: 100%;
+ margin-bottom: 100px;
+
+ 
+}
+.ytail{
+    font-family: "Yellowtail", cursive;
+color: #7EB693;
+font-weight: 400;
+font-size: 36px;
+margin-bottom: 15px;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+font-weight: 700;
+font-size: 60px;
+margin-bottom: 35px
+
+}
+.text{
+    padding-top: 300px;
+}
+.btnsec{
+    width: 219px;
+height: 82px;
+border-radius: 16px;
+border: none;
+background-color: #EFD372;
+color: #274C5B;
+font-size: 23px;
+font-weight: 400;
+}
+
+.herocard{
+    display: flex;
+justify-content: space-around;
+margin-bottom: 300px;
+}
+.twoimgs{
+
+    width: 565px;
+    height: 320px;
+    
+}
+.twoimg{
+
+    width: 565px;
+    height: 320px;
+    
+}
+.bola h1{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+    font-size: 45px;
+    font-weight: 700;
+}
+.bola p{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.small h1{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+font: bold;
+font-size: 25px;
+
+
+}
+.big{
+    display: flex;
+gap: 20px;
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+.btnbuy{
+    width: 199px;
+height: 82px;
+font-weight: 400;
+font-size: 25px;
+border-radius: 16px;
+border: none;
+background-color: #274C5B;
+color: white;
+
+}
+.ocenter{
+    font-family: "Yellowtail", cursive;
+color: #7EB693;
+text-align: center;
+font-size: 36px;
+font-weight: 400;
+margin-bottom: 6px;
+
+}
+.center{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;  
+    margin-bottom: 40px; 
+}
+.kard{
+    background-color: #F9F8F8;
+    width: 447px;
+    height: 590px;
+    border-radius: 30px;
+    
+}
+.second{
+    display: flex;
+margin-top: 20px;
+
+}
+.kard button{
+    width: 118px;
+height: 37px;
+border-radius: 8px;
+border: none;
+background-color: #274C5B;
+color: white;
+font-size: 15px;
+font-weight: 700;
+margin-top: 20px;
+margin-left: 15px;
+
+}
+.kard img{
+    margin-left: 31px;
+    margin-top: 30px;
+}
+.robotos{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+
+font-weight:bold;
+font-size: 22px;
+margin-bottom: 10px;
+}
+del{
+    font-size: 27px;
+    font-weight: 400;
+    color: #B8B8B8;
+}
+.second p{
+font-weight: 700;
+font-style: Bold;
+font-size: 27px;
+margin-left: 10px;
+
+}
+.second i{
+    color: #FFA858;
+
+}
+.is{
+    margin-top: 6px;
+    margin-left: 45px;
+}
+.herook{
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+.bcimg2{
+    background-image: url("./IMAGE\ \(28\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+ width: 100%;
+ margin-bottom: 100px;
+
+ 
+}
+.beh img{
+    margin-left: 545px;
+}
+.stars{
+    color: #FFA858;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.beh p{
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+margin: 20px 0;
+}
+.beh h2{
+    text-align: center;
+    font-family: "Roboto";
+font-weight: 700;
+font-size: 26px;
+text-align: center;
+color: #274C5B;
+
+
+}
+.begi{
+    margin-top: 200px;
+    width: 966px;
+height: 1px;
+margin-left: 130px;
+margin-bottom: 200px;
+
+
+}
+.square{
+    width: 250px;
+height: 250px;
+border-radius: 50%;
+background-color: #F1F1F1;
+border: 5px solid #7EB693;
+}
+.square p{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+font-weight: 700;
+font-style: Bold;
+font-size: 42px;
+text-align: center;
+margin-top: 65px;
+}
+.round{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.hero1 p{
+    font-family: "Yellowtail", cursive;
+    color: #7EB693;
+font-size: 36px;
+padding-top: 150px;
+
+}
+.hero1 h1{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 20px;
+font-weight: 700;
+font-size: 45px;
+
+}
+.hero1{
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.bgcolor{
+    background-color: #274C5B;
+
+}
+.hero1 button{
+    width: 267px;
+    height: 82px;
+    border-radius: 16px;
+    border: none;
+    background-color: #EFD372;
+    font-size: 20px;
+    font: bold;
+    margin-top: 200px;
+    
+}
+
+.herob{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  padding-bottom: 200px;
+}
+.eco{
+font-weight: 400;
+font-size: 36px;
+font-family: "Yellowtail", cursive;
+color: #7EB693;
+margin-bottom: 20px;
+
+}
+.yozuvs h1{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+font-weight: 700;
+font-size: 44px;
+margin-bottom: 20px;
+
+}
+.part1 h2{
+    
+    color:#274C5B ;
+    margin-bottom: 10px;
+
+}
+.part1 p{
+    color: #525C60;
+    margin-bottom: 20px;
+}
+.ada1{
+   display: flex;
+   margin-bottom: 200px;
+
+}
+.ada1 img{
+    margin-left: -100px;
+}
+.yozuvs{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 300px;
+}
+.bestext p{
+    font-family: "Yellowtail", cursive;
+    color: #7EB693;
+font-weight: 400;
+font-size: 35px;
+
+}
+.bestext h1{
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+
+font-weight: 700;
+font-size: 35px;
+
+}
+.herobest button{
+    width: 210px;
+    height: 82px;
+    border-radius: 16px;
+font-weight:bold;
+color: #274C5B;
+font-size: 20px;
+background-color: inherit;
+border: 1px solid #274C5B;
+margin-top: 30px;
+
+    
+}
+.herobest{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.herobest2 img{
+    width: 570px;
+    height: 415px;
+    
+}
+.herobest2{
+    justify-content: space-around;
+    display: flex;
+}
+.bestcard{
+    width: 510px;
+height: 300px;
+border-radius: 30px;
+background-color: white;
+box-shadow: 0px 2px 18px 15px #00000024;
+margin-top: -150px;
+
+}
+.bestcard p{
+font-weight: 400;
+font-size: 20px;
+font-family: "Roboto", sans-serif;
+color: #274C5B;
+font: bold;
+margin-top: 30px;
+margin-bottom: 20px;
+margin-left: 35px;
+}
+.bestcard h2{
+font-weight: 700;
+font-size: 25px;
+color: #274C5B;
+font-family: "Roboto", sans-serif;
+margin-bottom: 40px;
+margin-left: 35px;
+}
+.bestcard button{
+font-weight: 400;
+font-size: 20px;
+font-family: "Roboto", sans-serif;
+color: #274C5B;
+border: none;
+background-color: inherit;
+margin-top: 20px;
+margin-left: 35px;
+
+}
+.bestexts{
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 200px;
+}
+.bad h1{
+font-weight: 700;
+font-size: 50px;
+color: white;
+font-family: "Roboto", sans-serif;
+}
+
+.bad input{
+    width: 350px;
+height: 82px;
+border-radius: 16px;
+border: none;
+font-size: 20px;
+padding-left: 15px;
+}
+.bad button{
+    width: 197px;
+height: 82px;
+border-radius: 16px;
+background-color: #274C5B;
+border: none;
+color: white;
+font-weight: bold;
+font-size: 20px;
+margin-left: 20px;
+}
+.bad{
+    display: flex;
+    justify-content: space-between;
+background-image: url("./IMAGE\ \(32\).png");
+background-size: cover;
+background-repeat: no-repeat;
+padding: 100px 50px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+margin-bottom: 150px;
+}
+.fut1 h1{
+font-weight: 700;
+font-size: 30px;
+font-family: "Roboto", sans-serif;
+color: #274C5B;
+text-align: right;
+}
+.fut1 h2{
+font-weight: 700;
+font-size: 18px;
+font-family: "Roboto", sans-serif;
+color: #525C60;
+margin-bottom: 10px;
+text-align: right;
+}
+.fut1 p{
+font-weight: 400;
+font-size: 18px;
+color: #525C60;
+margin-bottom: 20px;
+text-align: right;
+}
+.line{
+    width: 1px;
+    height: 330px;
+    background-color: #525C60;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.herofut{
+    display: flex;
+    margin-bottom: 150px;
+}
+.fut2 img{
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+.fut2 p{
+text-align: center;
+font-weight: 400;
+font-size: 18px;
+color: #525C60;
+margin-left: 120px;
+margin-bottom: 100px;
+
+}
+.icon{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: #EFF6F1;
+
+}
+.icon i{
+    color: #274C5B;
+    font-size: 23px;
+    margin-top: 18px;
+    margin-left: 15px;
+
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    margin-left: 220px;
+  
+}
+.fut2{
+    margin-right: 90px;
+}
+.fut3 h1{
+    font-weight: 700;
+font-size: 30px;
+font-family: "Roboto", sans-serif;
+color: #274C5B;
+
+}
+.fut3{
+    padding-left: 20px;
+}
+.fut3 p{
+    font-weight: 400;
+font-size: 18px;
+color: #525C60;
+margin-bottom: 10px;
+}
+.nope{
+    width: 1220px;
+    margin-bottom:40px;
+}
+.thank{
+color: #525C60;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+margin-bottom: 40px;
+font-family: "Roboto", sans-serif;
+}
+.icon:hover{
+transform: scale(1.1);
+background-color: #7EB693;
+transition: 1s;
+}
+.bestcard:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+background-color: #7EB693;
+}
+.herobest button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+background-color: #7EB693;
+border: 1px solid white;
+color: white;
+}
+
+.kard:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+
+}
+.square:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color:#7EB693 ;
+    border: 1px solid #F9F8F8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    nav{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .two{
+        display: none;
+    }
+    .herocard{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ota{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .round{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .herob{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ada1{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .herobest{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .herobest2{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bestexts{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .herofut{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
